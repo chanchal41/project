@@ -1,0 +1,58 @@
+.logo{
+display:inline-block;
+left:50%;
+position:absolute;
+top:5px;
+transform:translatex(-50%)
+}
+
+.list ul {
+    list-style : none;
+    padding: 10px;
+ 
+
+text-align:right;
+} 
+
+    .list ul li:nth-child(1) {
+        float: left;
+        padding: 10px;
+    }
+    .list ul li:nth-child(2) {
+        float: left;
+        padding: 10px;
+    }
+    .div h1{
+        font-size: 100%;
+    }
+    .container-fluid{
+        margin-bottom: 2%;
+    }
+
+    .nav-brand{
+        float: none;
+    }
+    .card-img-top {
+        margin-left: -30%;
+        size: 20;
+        
+    }
+    .card-title {
+        font-weight: bold;
+        font-size: 20;
+      }
+      .head{
+        font-weight: bold;
+        font-size: x-large;
+        margin: center;
+
+      }
+     h1::before{
+         content: url(Left.png);
+         top:25%;
+         margin-left: 35%; 
+     }
+     h1::after{
+         content: url(right.png);
+     }
+     
